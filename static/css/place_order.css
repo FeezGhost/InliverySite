@@ -28,3 +28,26 @@ letter-spacing: -0.30000001192092896px;
 text-align: left;
 
 }
+
+@media screen and (max-width: 740px) {
+    body{
+        margin-right: 0  !important;
+        padding-right: 0 !important;
+    }
+    .img-col{
+      width: 80%;
+    }
+    .col-lg-4 img{
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .img-col{
+      margin-left: 40px;
+      width: 70%;
+    }
+    .col-lg-4 img{
+      width: 40%;
+    }
+  }
